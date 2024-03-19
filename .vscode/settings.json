@@ -5,5 +5,4 @@
   "clangd.detectExtensionConflicts": false,
   "C_Cpp.autocomplete": "Disabled",
   "C_Cpp.intelliSenseEngine": "Disabled",
-  "sonarlint.pathToCompileCommands": "${workspaceFolder}/src/compile_commands.json",
 }
