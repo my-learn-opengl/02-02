@@ -2,6 +2,8 @@
 
 set -e
 
+git submodule update --init
+
 # glfw
 cmake -B builddir/glfw -DCMAKE_INSTALL_PREFIX:PATH=../../external submodules/glfw
 cmake --build builddir/glfw --target install --config Release --parallel
