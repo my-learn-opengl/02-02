@@ -10,5 +10,6 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 
 [{*.{c,h,mk},Makefile,GNUmakefile}]
+indent_style = tab
 indent_size = 4
 tab_width = unset
